@@ -39,6 +39,20 @@ Through html binding (delimiters ```{{}}```)
 {{ '11/23/1996' | timestamp }}
 ```
 
+You can do the same thing with ```ng-bind```
+```html
+<span ng-bind="'11/23/1996' | timestamp"></span>
+```
+
+Or with ```$filter```
+```js
+MyController.$inject = ['$scope', '$filter'];
+
+function MyController($scope, $filter) {
+  $scope.date = $filter('timestamp')('11/23/1996');
+}
+```
+
 The most practical way to use this library is to integrate it with the ```date``` filter by Angular. For instance,
 
 ```html

@@ -1,6 +1,8 @@
 angular-timestamp-filter
 =====
 
+[![Build Status](https://travis-ci.org/srph/angular-timestamp-filter.svg)](https://travis-ci.org/srph/angular-timestamp-filter)
+
 Filter which parses date string (using Date) to timestamp. In technical terms, an angular filter wrapper for the native ```Date.parse```.
 
 For some reason, Angular's ```date``` doesn't seem to be able to convert MySQL's timestamp format (```M-d-Y h:i:s```) properly. Whether Angular updates their ```date``` filter to support such format, it's also okay; this was a fun project to work with (first time testing with Angular, CI, all that stuff). Also, feel free to copy-paste the filter implementation if it suits you.

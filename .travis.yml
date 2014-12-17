@@ -4,4 +4,6 @@ node_js:
 before_script:
   - sudo apt-get install libfontconfig
   - npm install bower -g
+  - npm install karma-cli -g
+  - npm install karma -g
   - bower install

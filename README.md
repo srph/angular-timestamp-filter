@@ -73,7 +73,7 @@ The most practical way to use this library is to integrate it with the ```date``
 
 ## Contribution
 
-This is a very, very tiny wrapper for ```Date.parse```. But feel free to put up an issue or submit a pull-request for any update on Angular's ```date``` filter, or whatever :thumbsup:
+This is a very, very tiny wrapper for ```Date.parse```. But feel free to put up an issue or submit a pull-request for any update on Angular's ```date``` filter, or whatever :thumbsup:. Standard request (since I am using the keyword ```timestamp``` *without a namespace*) is also alright.
 
 ### Style Guide
 

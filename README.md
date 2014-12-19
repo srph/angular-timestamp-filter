@@ -13,13 +13,21 @@ Whether Angular updates their ```date``` filter to support such format, it's als
 
 ## Installation
 
-You may install through Bower
+### Requirements
+
+Not sure if it works with versions ```<=1.2```, but it should work fine (unless the ```Filter``` API changed) with ```>=1.2```.
+
+You may install through Bower, while it is also possible to use a CDN (thanks to [RawGit](https://rawgit.com/)).
+
+**Bower**
 
 ```bash
 $ bower install angular-srph-timestamp-filter
 ```
 
-While it is also possible to use a CDN (thanks to [RawGit](https://rawgit.com/)). Use the first one for temporary examples or small projects; otherwise the second one for production
+**CDN**
+
+Use the first one for temporary examples or small projects; otherwise the second one for production
 ```
 https://rawgit.com/srph/angular-timestamp-filter/master/angular-timestamp-filter.js
 https://cdn.rawgit.com/srph/angular-timestamp-filter/master/angular-timestamp-filter.js

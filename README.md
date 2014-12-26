@@ -11,6 +11,8 @@ Whether Angular updates their ```date``` filter to support such format, it's als
 
 * I have no idea with browser compatibilities. I have no time as of now, but you can check if a certain browser implements ```Date.parse```.
 
+Currently version ```v0.0.1```
+
 ## Installation
 
 ### Requirements

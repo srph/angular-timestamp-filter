@@ -2,32 +2,28 @@ angular-timestamp-filter
 =====
 
 [![Build Status](https://travis-ci.org/srph/angular-timestamp-filter.svg)](https://travis-ci.org/srph/angular-timestamp-filter)
+[![Bower version](https://badge.fury.io/bo/angular-srph-timestamp-filter.svg)](http://badge.fury.io/bo/angular-srph-timestamp-filter)
+[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
-Filter which parses date string (```11/23/1996 12:23:42```, **...**) (using Date) to timestamp. In technical terms, an angular filter wrapper for the native ```Date.parse```.
+Filter which parses date string (```11/23/1996 12:23:42```, **...**) to timestamp.
 
-For some reason, Angular's ```date``` doesn't seem to be able to convert MySQL's timestamp format (```M-d-Y h:i:s```) properly. This library allows you to convert your date string to a timestamp, then to the ```date``` fuilter, check [Usage](#usage).
-
-Whether Angular updates their ```date``` filter to support such format, it's also okay; this was a fun project to work with (first time testing with Angular, CI, all that stuff). Also, feel free to copy-paste the filter implementation if it suits you.
-
-* I have no idea with browser compatibilities. I have no time as of now, but you can check if a certain browser implements ```Date.parse```.
-
-Currently version ```v0.0.1```
-
-## Installation
+## Getting Started
 
 ### Requirements
 
-Not sure if it works with versions ```<=1.2```, but it should work fine (unless the ```Filter``` API changed) with ```>=1.2```.
+Not sure if it works with versions Angular ```<=1.2```, but it should work fine (unless the ```Filter``` API changed) with Angular ```>=1.2```.
 
-You may install through Bower, while it is also possible to use a CDN (thanks to [RawGit](https://rawgit.com/)).
+\* I have no idea with browser compatibilities. I have no time as of now, but you can check if a certain browser implements ```Date.parse```.
 
-**Bower**
+### Installation
+
+```angular-timestamp-filter``` is available in [Bower]
 
 ```bash
 $ bower install angular-srph-timestamp-filter
 ```
 
-**CDN**
+While it is also possible to use a CDN (thanks to [RawGit](https://rawgit.com/)).
 
 Use the first one for temporary examples or small projects; otherwise the second one for production
 ```
@@ -46,7 +42,7 @@ Add in the library's module to your module's dependencies:
 angular.module('your-app-name', [/** other deps */, 'srph.timestamp-filter']);
 ```
 
-## Usage
+### Usage
 
 Through html binding (delimiters ```{{}}```)
 ```html
@@ -74,6 +70,18 @@ The most practical way to use this library is to integrate it with the ```date``
 <!-- should display Nov. 23, 1996 -->
 ```
 
+## Imporant Notes
+
+In technical terms, this library is an angular filter wrapper for the native ```Date.parse```.
+
+For some reason, Angular's ```date``` doesn't seem to be able to convert MySQL's timestamp format (```M-d-Y h:i:s```) properly. This library allows you to convert your date string to a timestamp, then to the ```date``` filter, check [Usage](#usage).
+
+Whether Angular updates their ```date``` filter to support such format, it's also okay; this was a fun project to work with (first time testing with Angular, CI, all that stuff). Also, feel free to copy-paste the filter implementation if it suits you.
+
+### Status
+
+Currently version ```v0.0.1```
+
 ## Changelog
 
 ### v0.0.1
@@ -83,7 +91,7 @@ The most practical way to use this library is to integrate it with the ```date``
 
 ## Contribution
 
-This is a very, very tiny wrapper for ```Date.parse```. But feel free to put up an issue or submit a pull-request for any update on Angular's ```date``` filter, or whatever :thumbsup:. Standard request (since I am using the keyword ```timestamp``` *without a namespace*) is also alright.
+This is a very, very tiny wrapper for ```Date.parse```. But feel free to put up an issue or submit a pull-request.
 
 ### Style Guide
 

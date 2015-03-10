@@ -80,7 +80,7 @@ I have no time as of now, but you can check if there are issues with ```Date.par
 
 ## Changelog
 
-Check [Changelog](https://github.com/srph/angular-timestamp-filter/blob/master/doc/changelog.md).
+See the [Changelog](https://github.com/srph/angular-timestamp-filter/blob/master/doc/changelog.md) file.
 
 ## Contribution
 

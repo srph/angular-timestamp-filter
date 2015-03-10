@@ -88,6 +88,26 @@ I'd suggest to submit an issue first before putting up a pull-request as this av
 
 Not obligatory, but **don't forget to add tests**!
 
+<<<<<<< HEAD
 ### Building
 
 Check the [Building docs](https://github.com/srph/angular-timestamp-filter/blob/master/doc/building.md).
+=======
+### Style Guide
+
+- Use semicolons;
+- Commas last,
+- 2 spaces for indentation (no tabs)
+- Prefer ' over "
+- "use strict";
+- 80 character line length
+- "Attractive"
+
+## Acknowledgement
+
+**angular-timestamp-filter** © 2015+, Kier Borromeo (srph). **angular-timestamp-filter** is released under the [MIT](mit-license.org) license.
+
+> [srph.github.io](http://srph.github.io) &nbsp;&middot;&nbsp;
+> GitHub [@srph](https://github.com/srph) &nbsp;&middot;&nbsp;
+> Twitter [@_srph](https://twitter.com/_srph)
+>>>>>>> 8ae706d6171634f4c187ea5ac5d27b291f2d850b

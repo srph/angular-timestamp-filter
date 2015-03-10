@@ -74,7 +74,7 @@ The most practical way to use this library is to integrate it with the ```date``
 
 ## Compatibility
 
-\* As of version `v0.1.1`, `angular-timestamp-filter` [now harmonically works with Firefox `Date.parse` issue with dashes](http://stackoverflow.com/questions/11516332/date-parse-results-in-nan).
+\* As of version `v0.1.0`, `angular-timestamp-filter` [now harmonically works with Firefox `Date.parse` issue with dashes](http://stackoverflow.com/questions/11516332/date-parse-results-in-nan).
 
 I have no time as of now, but you can check if there are issues with ```Date.parse```.
 

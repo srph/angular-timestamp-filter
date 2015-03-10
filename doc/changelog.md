@@ -1,4 +1,4 @@
-### v0.1.1
+### v0.1.0
 
 **Implementation**
 - Fixed incompatibility issue with **Firefox** (wherein provided date (string) contains dashes (`-`)), e.g. `11-23-1996` returned value to be `NaN`.

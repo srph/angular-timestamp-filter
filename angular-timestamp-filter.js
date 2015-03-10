@@ -6,7 +6,10 @@
 
   function filter() {
     return function filterFn(input) {
-      return ( Date.parse(input) );
+      // We will replace `-` with `/` because Firefox does not seem to support `-` in Dates.
+      // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
+      // http://stackoverflow.com/questions/11516332/date-parse-results-in-nan
+      return Date.parse( angular.isString(input) ? input.replace(/\-/g, '/') : input );
     }
   }
 }(angular);

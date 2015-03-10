@@ -3,9 +3,9 @@ angular-timestamp-filter
 
 [![Build Status](https://travis-ci.org/srph/angular-timestamp-filter.svg)](https://travis-ci.org/srph/angular-timestamp-filter) [![Bower version](https://badge.fury.io/bo/angular-srph-timestamp-filter.svg)](http://badge.fury.io/bo/angular-srph-timestamp-filter) [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
-Filter which parses date string (```11/23/1996 12:23:42```, **...**) to timestamp.
+Filter which parses date (```11/23/1996 12:23:42```) to timestamp.
 
-For some reason, Angular's ```date``` doesn't seem to be able to convert timestamp format ```M-d-Y h:i:s``` properly. This library allows you to convert your date (string or a Date instance) to a timestamp.
+For some reason, Angular's [```date``` filter](https://docs.angularjs.org/api/ng/filter/date) doesn't seem to be able to convert timestamp format `M-d-Y h:i:s` properly. This library allows you to convert your date (string or a Date instance) to a timestamp.
 
 ## Getting Started
 

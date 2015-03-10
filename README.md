@@ -23,11 +23,11 @@ $ bower install angular-srph-timestamp-filter
 
 While it is also possible to use a CDN (thanks to [RawGit](https://rawgit.com/)).
 
-```
+```html
 <!-- use this for examples or during development -->
-https://rawgit.com/srph/angular-timestamp-filter/master/angular-timestamp-filter.js
+<script src="https://rawgit.com/srph/angular-timestamp-filter/master/angular-timestamp-filter.js"></script>
 <!-- or you could just forget about it and use this (recommended for production) -->
-https://cdn.rawgit.com/srph/angular-timestamp-filter/master/angular-timestamp-filter.js
+<script src="https://cdn.rawgit.com/srph/angular-timestamp-filter/master/angular-timestamp-filter.js"></script>
 ```
 
 Include the script in your template (replace ```path/to/``` with its proper path) after AngularJS.

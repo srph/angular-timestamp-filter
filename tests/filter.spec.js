@@ -10,8 +10,12 @@ describe('filter', function() {
     expect(filter('12-25-2014 12:00:00')).toEqual(Date.parse('12-25-2014 12:00:00'));
   });
   
-  it('should convert dashes to slashes to fix incompatibility issue', function() {
-    spyOn('', 'replace');
-    expect(filter('11/23/1996')).toEqual(Date.parse('11-23-1996'));
+  // 11-23-1996 to 11/23/1996
+  it('should convert dashes to slashes when a string is passed to fix incompatibility issue', function() {
+    var date = '11-23-1996';
+    
+    spyOn(date, 'replace').and.returnValue('11/23/1996');
+    expect(filter('11/23/1996')).toEqual(Date.parse(date));
+    expect(date.replace).toHaveBeenCalled();
   });
 });

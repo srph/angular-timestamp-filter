@@ -5,7 +5,7 @@
     .filter('timestamp', filter);
 
   function filter() {
-    return function filterFn(input) {
+    return function(input) {
       // We will replace `-` with `/` because Firefox does not seem to support `-` in Dates.
       // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
       // http://stackoverflow.com/questions/11516332/date-parse-results-in-nan

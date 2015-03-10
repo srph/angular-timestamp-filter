@@ -88,12 +88,6 @@ I'd suggest to submit an issue first before putting up a pull-request as this av
 
 Not obligatory, but **don't forget to add tests**!
 
-### Style Guide
+### Building
 
-- Use semicolons;
-- Commas last,
-- 2 spaces for indentation (no tabs)
-- Prefer ' over "
-- "use strict";
-- 80 character line length
-- "Attractive"
+Check the [Building docs](https://github.com/srph/angular-timestamp-filter/blob/master/doc/building.md).

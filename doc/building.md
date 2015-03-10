@@ -39,7 +39,7 @@ $ git clone https://github.com/srph/angular-timestamp-filter.git
 $ cd angular-timestamp-filter
 ```
 
-**Intsall dependencies**
+**Install dependencies**
 
 ```bash
 $ npm install

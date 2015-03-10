@@ -97,3 +97,11 @@ Not obligatory, but **don't forget to add tests**!
 - "use strict";
 - 80 character line length
 - "Attractive"
+
+## Acknowledgement
+
+**angular-timestamp-filter** © 2015+, Kier Borromeo (srph). **angular-timestamp-filter** is released under the [MIT](mit-license.org) license.
+
+> [srph.github.io](http://srph.github.io) &nbsp;&middot;&nbsp;
+> GitHub [@srph](https://github.com/srph) &nbsp;&middot;&nbsp;
+> Twitter [@_srph](https://twitter.com/_srph)

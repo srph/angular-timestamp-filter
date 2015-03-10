@@ -1,5 +1,5 @@
 +function(angular, undefined) {
-  'use strict';
+  "use strict";
   angular
     .module('srph.timestamp-filter', [])
     .filter('timestamp', filter);

@@ -2,7 +2,7 @@
   "name": "ng-timestamp-filter",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/filter.js",
   "scripts": {
     "test": "./node_modules/.bin/karma start --single-run",
     "uglify": "uglifyjs ./src/filter.js -m -c -d -o ./dist/angular-timestamp-filter.min.js"
